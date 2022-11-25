@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "仓耳渔阳体 W04";font-weight: 400;src: url("//at.alicdn.com/wf/webfont/1yluqAfeMyKw/Sw1yEfWzEwqMRvIAJ8LbW.woff2") format("woff2"),
+	url("//at.alicdn.com/wf/webfont/1yluqAfeMyKw/qX-otnnxNvxpvWjVB5wp4.woff") format("woff");
+	font-display: swap;
+  }
+.loginPage{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	.headline{
+		display: flex;
+		margin-top: 10vh;
+		justify-content: center;
+		.title{
+			font-size: 48px;
+			font-weight: 600;
+			font-family: "仓耳渔阳体 W04"
+		}
+	}
+	.details{
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		margin-top: 30px;
+		>text{
+			margin-top: 30px;
+			color: #cccccc;
+			font-family: "仓耳渔阳体 W04"
+		}
+	}
+	.login-image{
+		width: 500px;
+		height: 500px;
+		margin-top: 50px;
+	}
+	.login-button{
+		width: 80vw;
+		background-color: #63dcd3;
+		color: #F5F5F5;
+		border-radius: 48px;
+		margin-top: 20px;
+	}
+}

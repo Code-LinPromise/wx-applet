@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'myApp',
+  projectName: '二手交易',
   date: '2022-11-23',
   designWidth: 750,
   deviceRatio: {
